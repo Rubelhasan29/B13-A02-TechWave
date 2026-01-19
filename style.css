@@ -237,3 +237,133 @@
 .podcast-card p{
     color: #ffffffc5;
 }
+.techwave-grid-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.techwave-section{
+    background-color: #1A0B2E;
+    text-align: center;
+    color: #FFFFFF;
+}
+.techwave-header h1{
+    color: #FFFFFF;
+    font-size: 48px;
+    font-weight: bold;
+    margin: 0;
+    padding-top: 120px;
+    padding-bottom: 40px;
+}
+.techwave-container{
+    display: grid;
+    max-width: 75%;
+    gap: 30px;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,1fr),273px;
+    padding-bottom: 120px;
+}
+.techwave-container .box-1{
+    padding-top: 107px;
+    border-radius: 40px;
+    grid-row: span 2;
+    background: rgba(53, 17, 101, 0.4);
+    display: flex;
+    flex-direction: column;
+    padding-left: 40px;
+    height: 380px;
+}
+.box-1 img{
+   height: 60px;
+   width: 60px;
+   padding-bottom: 16px;
+}
+.box-1 h3{
+    width: 300px;
+    text-align: start;
+    margin-bottom: 16px;
+    font-size: 24px;
+    font-weight: bold;
+}
+.box-1 p{
+    width: 300px;
+    margin-bottom: 110px;
+    color: #ffffff97; 
+}
+.techwave-container .box-2{
+    border-radius: 40px;
+    grid-column: span 2;
+    background: rgba(53, 17, 101, 0.4);
+}
+.box2-3{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 40px;
+    height: 147px;
+}
+.box2-3 img{
+   height: 60px;
+   width: 50px;
+   padding-bottom: 2px;
+}
+.box2-3 h3{
+    width: 300px;
+    text-align: start;
+    margin-bottom: 2px;
+    font-size: 24px;
+    font-weight: bold;
+}
+.box2-3 p{
+    margin-bottom: 80px;
+    color: #ffffff97;  
+}
+.techwave-container .box-3{
+    border-radius: 40px;
+    grid-column: span 2;
+    background: rgba(53, 17, 101, 0.4);
+}
+.techwave-container .box-4{
+    border-radius: 40px;
+    grid-column: span 2;
+    background: rgba(53, 17, 101, 0.4);
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+}
+.box-4 img{
+   height: 60px;
+   width: 60px;
+}
+.box-4 h3{
+    width: 300px;
+    margin-bottom: 2px;
+    font-size: 24px;
+    text-align: start;
+}
+.box-4 p{
+    color: #ffffff97; 
+    text-align: start;
+}
+.techwave-container .box-5{
+    border-radius: 40px;
+    background: rgba(53, 17, 101, 0.4);
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+}
+.box-5 img{
+   height: 60px;
+   width: 60px;
+}
+
+.box-5 h3{
+    width: 300px;
+    margin-bottom: 2px;
+    font-size: 24px;
+    text-align: start;
+}
+.box-5 p{
+    color: #ffffff97; 
+    text-align: start;
+}
