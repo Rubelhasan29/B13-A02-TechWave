@@ -516,8 +516,9 @@
         flex-direction: column;
     }
     .box-1{
-        width: 430px;
-        margin-left: -45px;
+        padding-right: 43px;
+        width:100%;
+        margin-left: -40px;
         
     }
     .box-2,
