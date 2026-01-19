@@ -280,6 +280,7 @@
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr), 273px;
     padding-bottom: 120px;
+    background: rgba(48, 18, 88, 0.4);
 }
 
 .techwave-container .box-1 {
@@ -402,6 +403,66 @@
     color: #ffffff97;
     text-align: start;
 }
+.episodes{
+    text-align: center;
+    background-color: #1A0B2E;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.episodes h1{
+    font-size: 48px;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+.episodes-card-container{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    width: 75%;
+}
+.episodes-card-container .video-img{
+    height: 220px;
+}
+.episodes-card-container a{
+    text-decoration: none;
+    border-radius: 20px;
+    background: rgba(79, 30, 142, 0.4);
+}
+.episodes-card-text h4{
+    font-size: 24px;
+    font-weight: bold;
+    color: #FFFFFF;
+    margin-top: 24px;
+    width: 330px;
+    margin-left: 24px;
+    display: flex;
+}
+.episodes-card-title{
+    font-size: 16px;
+    color: #ffffffa0;
+    padding-left: 24px;
+    width: 332px;
+}
+.card-timer{
+    height: 24px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin: 12px 24px 24px 5px;
+    justify-content: start;
+}
+.card-timer .time{
+    color: #00FF88;
+}
+.card-timer img{
+    height: 20px;
+    width: 20px;
+    padding-left: 24px;
+}
+
 
 
 
