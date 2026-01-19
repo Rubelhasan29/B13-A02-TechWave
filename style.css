@@ -4,6 +4,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 .nav-container {
     display: flex;
     justify-content: space-around;
@@ -51,28 +52,42 @@
 }
 
 .hero-img {
-    width: 380px;
-    height: 380px;
+    width: 420px;
+    height: 420px;
     background-image: url(./assets/hero-circle.png);
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
     align-items: center;
     justify-content: center;
-    /* border: 2px solid red; */
 }
-.hero-tooltip{
+
+.hero-tooltip {
     color: #1A0B2E;
     background-color: #00FF88;
     width: 75px;
     height: 38px;
     border-radius: 40px;
     display: flex;
-    justify-content: center;align-items: center;
+    justify-content: center;
+    align-items: center;
     position: relative;
-    top: 50px;
+    top: 60px;
     left: 120px;
+    animation: tooltip 1.2s ease-out forwards;
 }
+@keyframes tooltip {
+    from {
+        top:-200px;
+        opacity: 0;
+    }
+
+    to {
+        top: 70px;
+        opacity: 1;
+    }
+}
+
 .hero-text {
     text-align: center;
     color: #FFFFFF;
@@ -94,44 +109,113 @@
 .hero-btns {
     margin-top: 24px;
     display: flex;
-    gap: 8px;
+    gap: 1200px;
 }
-.hero-left{
+
+.hero-left {
     background: linear-gradient(to right, #F7E93F, #FB09B4, #9100F8);
     display: flex;
     justify-content: center;
     border-radius: 40px;
     width: 200px;
     height: 44px;
+    position: relative;
+    animation: in 1.2s ease-out forwards;
 }
-.hero-left img{
+
+@keyframes in {
+    from {
+        left: 0;
+        opacity: 0;
+    }
+
+    to {
+        left: 596px;
+        opacity: 1;
+    }
+}
+
+.hero-left img {
     margin-top: 12px;
     height: 45%;
     width: 9%;
 }
-.button1{
+
+.button1 {
     background-color: transparent;
     border: none;
     color: #FFFFFF;
     font-weight: 600;
 }
- .hero-right{
+
+.hero-right {
     background-color: #ffffff00;
     display: flex;
     justify-content: center;
     border-radius: 40px;
     width: 147px;
     height: 44px;
-    border: 1px solid #00FF88 ;
- }
- .hero-right img{
+    border: 1px solid #00FF88;
+    position: relative;
+
+    animation: right-in 1.2s ease-out forwards;
+}
+
+@keyframes right-in {
+    from {
+        right: 0;
+        opacity: 0;
+    }
+
+    to {
+        right: 596px;
+        opacity: 1;
+    }
+}
+
+.hero-right img {
     margin-top: 16px;
     height: 32%;
     width: 12%;
 }
-.button2{
+
+.button2 {
     background-color: transparent;
     border: none;
     color: #00FF88;
     font-weight: 600;
+}
+
+
+.podcast {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #FFFFFF;
+    background-color: #1A0B2E
+}
+
+.podcast-text {
+    max-width: 1200px;
+}
+
+.podcast-text h1 {
+    color: #FFFFFF;
+    font-size: 48px;
+    font-weight: bold;
+    padding-top: 50px;
+}
+
+.podcast-text p {
+    color: #ffffffb6;
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 30px;
+}
+
+.line {
+    border: 1px solid #7cbffe22;
+    width: 80%;
+    margin-top: 80px;
 }
