@@ -414,7 +414,7 @@
     background-color: #1A0B2E;
     display: flex;
     flex-direction: column;
-    padding-left: 270px;
+    padding-left: 160px;
     padding-top: 120px;
     padding-bottom: 120px;
 }
@@ -423,7 +423,8 @@
     font-size: 48px;
     color: #FFFFFF;
     font-weight: bold;
-    max-width: 1300px;
+    max-width: 95%;
+    /* border: 1px solid greenyellow; */
 }
 
 .episodes-card-container {
@@ -439,6 +440,7 @@
 
 .episodes-card-container .video-img {
     height: 220px;
+    border-radius: 20px;
 }
 
 .episodes-card-container a {
@@ -452,20 +454,20 @@
 
 .player1 {
     position: relative;
-    left: 265px;
+    left: 440px;
     top: 85px;
 }
 
 .player2 {
     position: relative;
-    left: 690px;
-    top: 20px;
+    left: 775px;
+    top: 80px;
 }
 
 .player3 {
     position: relative;
     left: 1110px;
-    bottom: 40px;
+    top: 80px;
 }
 
 .episodes-card-text h4 {
@@ -498,14 +500,101 @@
     color: #00FF88;
 }
 
+.timer3 {
+    margin-top: 35px;
+}
+
 .card-timer img {
     height: 20px;
     width: 20px;
     padding-left: 24px;
 }
 
+.host {
+    /* border: 1px solid red; */
+    text-align: center;
+    padding-bottom: 120px;
+    background-color: #1A0B2E;
+}
 
+.host-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
+.host-container h1 {
+    color: #FFFFFF;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.host-info {
+    display: flex;
+    color: #FFFFFF;
+    width: 64%;
+    gap: 24px;
+}
+
+.host-about {
+    text-align: left;
+}
+
+.host-about p {
+    color: #ffffff8a;
+}
+
+.host-about h4 {
+    font-size: 32px;
+    margin-bottom: 16px;
+}
+
+.host-icons {
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+}
+.host-about img {
+    border: 1px solid blueviolet;
+    padding: 10px;
+    border-radius: 50%;
+}
+.footer{
+    background-image: url(./assets/footer-bg.png);
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #FFFFFF;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer-container h1{
+    font-size: 80px;
+    font-weight: bold;
+    margin-top: 165px;
+    margin-bottom: 0;
+    padding-left: 80px;
+}
+.footer-icons{
+    display: flex;
+    justify-content: center;
+    gap: 30px; 
+    padding-left: 50px;
+}
+.icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    height: 30px;
+}
+.copyright{
+    padding-top: 32px;
+}
 
 
 
@@ -636,20 +725,20 @@
     .techwave-container {
         display: flex;
         flex-direction: column;
+        padding-bottom: 0;
     }
 
     .box-1 {
         padding-right: 43px;
         width: 100%;
         margin-left: -40px;
-
     }
 
     .box-1 p,
     .box-2 p,
     .box-3 p,
     .box-4 p,
-    .box-5 p{
+    .box-5 p {
         width: 100%;
         text-align: left;
     }
@@ -665,6 +754,7 @@
     .episodes {
         padding-left: 0%;
         width: 100%;
+        padding-top: 0;
     }
 
     .episodes-card-container {
@@ -672,6 +762,7 @@
         flex-direction: column;
         gap: 20px;
         width: 100%;
+        position: relative;
     }
 
     .episodes-card-container .players {
@@ -700,20 +791,26 @@
     }
 
     .player1 {
-        position: relative;
-        left: 5px;
-        top: 5px;
+        position: absolute;
+        left: 240px;
+        top: 170px;
+        margin: 0;
+        padding: 0;
     }
 
     .player2 {
-        position: relative;
-        left: 0px;
-        top: 0px;
+        position: absolute;
+        left: 240px;
+        top: 670px;
+        margin: 0;
+        padding: 0;
     }
 
     .player3 {
-        position: relative;
-        left: 0px;
-        bottom: 0px;
+        position: absolute;
+        left: 220px;
+        top: 1190px;
+        margin: 0;
+        padding: 0;
     }
 }
