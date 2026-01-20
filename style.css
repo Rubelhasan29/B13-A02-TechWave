@@ -779,7 +779,9 @@
         width: 100%;
         position: relative;
     }
-
+    .episodes h1{
+        margin-left: 25px;
+    }
     .episodes-card-container .players {
         background-color: #1A0B2E;
     }
