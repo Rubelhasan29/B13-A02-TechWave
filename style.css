@@ -533,6 +533,9 @@
     color: #FFFFFF;
     width: 64%;
     gap: 24px;
+    background-color: #41275379;
+    padding: 40px;
+    border-radius: 48px;
 }
 
 .host-about {
