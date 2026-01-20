@@ -582,7 +582,7 @@
 .footer-icons{
     display: flex;
     justify-content: center;
-    gap: 30px; 
+    gap: 90px; 
     padding-left: 50px;
 }
 .icon{
@@ -594,6 +594,7 @@
 }
 .copyright{
     padding-top: 32px;
+    color: #ffffff5e;
 }
 
 
@@ -792,25 +793,52 @@
 
     .player1 {
         position: absolute;
-        left: 240px;
-        top: 170px;
+        left: 210px;
+        top: 150px;
         margin: 0;
         padding: 0;
     }
 
     .player2 {
         position: absolute;
-        left: 240px;
-        top: 670px;
+        left: 210px;
+        top: 620px;
         margin: 0;
         padding: 0;
     }
 
     .player3 {
         position: absolute;
-        left: 220px;
-        top: 1190px;
+        left: 210px;
+        top: 1130px;
         margin: 0;
         padding: 0;
+    }
+    .host-info{
+        display: flex;
+        flex-direction: column;
+    }
+    .host-icons{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    /* .footer{
+        background-size: 100% auto;
+        padding: 60px 20px;
+    } */
+    .footer-container{
+        width: 100%;
+    }
+    .footer-container h1{
+        padding-left: 15px;
+    }
+    .footer-icons{
+        margin-right: 40px;
+        display: grid;
+        grid-template-columns: repeat(2,auto);
+        column-gap: 20px;
+        row-gap: 20px;
+
     }
 }
