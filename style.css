@@ -563,6 +563,18 @@
     padding: 10px;
     border-radius: 50%;
 }
+.icon1 img{
+    padding: 13.5px;
+    border: 1px solid rgb(150, 55, 179);
+}
+.icon2 img{
+    padding: 13px;
+    border: 1px solid rgb(150, 55, 179);
+}
+.icon3 img{
+    padding: 12px;
+    border: 1px solid rgb(150, 55, 179);
+}
 .footer{
     background-image: url(./assets/footer-bg.png);
     height: 500px;
